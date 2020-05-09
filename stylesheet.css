@@ -3,6 +3,7 @@
 <head>
 <title>Page Title</title>
 <link href="StyleSheet.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
 
 
@@ -13,6 +14,19 @@
     p2 {color: #FF00EB;}
     body {background-color: #82E9F1;}
     div {color: #F57AF3;}
+    
+	a:hover {color: blue;}
+    h1: hover {color: red;}
+    
+    h1 {
+    	text-align: center;
+        }
+    
+    img {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+		 }
 </style>
 
 
@@ -20,24 +34,31 @@
 <body>
 
 
-<h1><em>Pusheen</em></h1>
-<p><strong>Pusheen is cute :D</strong></p>
-<p2>Birthday Items:</p2>
+<h1><strong><u>Pusheen's Birthday Party</u></strong></h1>
+<p><strong>Pusheen's birthday is coming up!</strong></p>
+<p>Let's throw a birthday party!</p>
+<p>What do we need?</p>
+<br>
+<p2><u>Birthday Items:</u></p2>
 
 <div>
 <ol>
 	<li>Birthday Hats</li>
     <li>Cupcakes</li>
-    <li>Birthday Hats</li>
+    <li>Decorations</li>
+    <li>A Happy Face :D</li>
 </ol>
+<br><br>
+
 </div>
 
-<img src = "data:image/png;base64,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">
-
-<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTp8UZM_hUzTdltykg3ZFdMTnHg-FzDN_7-KV_tLV8g7vuyv61X&usqp=CAU">
 
 
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTp8UZM_hUzTdltykg3ZFdMTnHg-FzDN_7-KV_tLV8g7vuyv61X&usqp=CAU" width = "200px">
+<br>
 <a href = "https://pusheen.com/"> More Pusheen </a>
+
+
 
 </body>
 </html>
