@@ -1,11 +1,11 @@
 <style>
-	h1 {color: #7236F2;}
+    h1 {color: #7236F2;}
     p {color: #9E76F3;}
     p2 {color: #FF00EB;}
     body {background-color: #82E9F1;}
     div {color: #F57AF3;}
     
-	a:hover {color: blue;}
+    a:hover {color: blue;}
     h1: hover {color: red;}
     
     h1 {
@@ -16,5 +16,5 @@
     	display: block;
     	margin-left: auto;
     	margin-right: auto;
-		 }
+	 }
 </style>
